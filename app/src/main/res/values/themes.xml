@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Parcial" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorButtonNormalLight</item>
+        <item name="colorPrimaryVariant">@color/colorButtonNormalLight</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorButtonNormal">@color/colorButtonNormalLight</item>
+        <item name="colorSecondary">@android:color/holo_blue_light</item>
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+    </style>
+</resources>

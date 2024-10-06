@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inversión 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etMonto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Monto"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etTasa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tasa (TNA)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPlazo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Plazo (meses)"
+            android:inputType="number"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEntidad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entidad"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <RadioGroup
+            android:id="@+id/rgTipoInversion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbPlazoFijo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazo Fijo"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <RadioButton
+                android:id="@+id/rbFondoComun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fondo Común"
+                android:textColor="?android:attr/textColorPrimary" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inversión 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etMonto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Monto"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etTasa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tasa (TNA)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPlazo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Plazo (meses)"
+            android:inputType="number"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEntidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entidad"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <RadioGroup
+            android:id="@+id/rgTipoInversion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbPlazoFijo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazo Fijo"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <RadioButton
+                android:id="@+id/rbFondoComun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fondo Común"
+                android:textColor="?android:attr/textColorPrimary" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnGuardarInversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Inversión"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="?android:attr/colorPrimary"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
